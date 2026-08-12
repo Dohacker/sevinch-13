@@ -1,69 +1,214 @@
 <!doctype html>
 <html lang="uz">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="theme-color" content="#120b22">
-<title>Sevinch uchun 🎁</title>
-<link rel="stylesheet" href="/style.css">
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+  >
+
+  <meta name="theme-color" content="#120b22">
+
+  <title>Sevinch uchun 🎁</title>
+
+  <!-- GitHub Pages uchun to'g'ri CSS yo'li -->
+  <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-<div id="stars"></div>
 
-<section class="screen hero" id="home">
-  <div class="glow"></div>
-  <p class="eyebrow">BUGUN ODDIY KUN EMAS ✨</p>
-  <div class="gift">🎁</div>
-  <h1>Sevinch,<br><span>13 yoshing muborak!</span></h1>
-  <p class="soft">Masofa uzoq bo'lsa ham, bugun senga yetib boradigan kichkina dunyo tayyorladim.</p>
-  <button class="primary" id="openGift">Sovg'ani ochish <b>→</b></button>
-  <p class="tiny">Pastga tushishni ham unutma ↓</p>
-</section>
+  <div id="stars"></div>
 
-<main id="experience">
-  <section class="screen story">
-    <div class="number">01</div>
-    <h2>Bu sahifa — faqat sen uchun.</h2>
-    <p>Oddiy tug'ilgan kun tabrigi emas. Bu yerda rasmlar, videolar, xotiralar va hali qo'shiladigan yangi lahzalar yashaydi.</p>
-    <div class="age"><span>1</span><span>3</span></div>
-  </section>
+  <!-- BOSHLANG'ICH SAHIFA -->
+  <section class="screen hero" id="home">
 
-  <section class="screen memories">
-    <div class="number">02</div>
-    <p class="eyebrow">XOTIRALAR GALEREYASI</p>
-    <h2>Ko'r, esla, tabassum qil 📸</h2>
-    <div class="gallery" id="gallery"></div>
-    <button class="secondary" id="refresh">Yangi xotiralarni ko'rish ↻</button>
-  </section>
+    <div class="glow"></div>
 
-  <section class="screen letter">
-    <div class="number">03</div>
-    <div class="paper">
-      <span class="seal">💌</span>
-      <h2>Sevinchga</h2>
-      <p>Bugun sen 13 yoshga to'lding. Hayotingda hali juda ko'p kulgili, baxtli va unutilmas kunlar bo'lsin.</p>
-      <p>Men uzoqda bo'lsam ham, bugun seni tabriklash uchun oddiy xabar yuborish kamlik qiladi deb o'yladim. Shuning uchun shu kichkina dunyoni yasadim.</p>
-      <p>Bu yerga yana yangi rasmlar, videolar va xotiralar qo'shilib boradi. Chunki eng yaxshi xotiralar bitta kunga sig'maydi. 🤍</p>
-      <p class="signature">Tug'ilgan kuning muborak!<br><b>— Doston</b></p>
+    <p class="eyebrow">
+      BUGUN ODDIY KUN EMAS ✨
+    </p>
+
+    <div class="gift">
+      🎁
     </div>
+
+    <h1>
+      Sevinch,<br>
+      <span>13 yoshing muborak!</span>
+    </h1>
+
+    <p class="soft">
+      Masofa uzoq bo'lsa ham, bugun senga yetib boradigan
+      kichkina dunyo tayyorladim.
+    </p>
+
+    <button class="primary" id="openGift">
+      Sovg'ani ochish <b>→</b>
+    </button>
+
+    <p class="tiny">
+      Pastga tushishni ham unutma ↓
+    </p>
+
   </section>
 
-  <section class="screen finale">
-    <div class="cake">🎂</div>
-    <p class="eyebrow">ENG MUHIM QISM</p>
-    <h2>13 yosh — yangi hikoyaning boshlanishi.</h2>
-    <p>Doim kulib yur. Orzularing katta bo'lsin. Va bugungi kun esingda qolsin.</p>
-    <button class="primary" id="celebrate">13 marta tabassum qil ✨</button>
-    <div id="wish" class="wish"></div>
-  </section>
-</main>
 
-<div class="modal" id="modal">
-  <button id="closeModal">×</button>
-  <div id="modalContent"></div>
-</div>
+  <main id="experience">
 
-<a class="admin-link" href="/admin.html" aria-label="Admin">✦</a>
-<script src="/app.js"></script>
+    <!-- 01 -->
+    <section class="screen story">
+
+      <div class="number">
+        01
+      </div>
+
+      <h2>
+        Bu sahifa — faqat sen uchun.
+      </h2>
+
+      <p>
+        Oddiy tug'ilgan kun tabrigi emas.
+        Bu yerda rasmlar, videolar, xotiralar
+        va hali qo'shiladigan yangi lahzalar yashaydi.
+      </p>
+
+      <div class="age">
+        <span>1</span>
+        <span>3</span>
+      </div>
+
+    </section>
+
+
+    <!-- 02 GALEREYA -->
+    <section class="screen memories">
+
+      <div class="number">
+        02
+      </div>
+
+      <p class="eyebrow">
+        XOTIRALAR GALEREYASI
+      </p>
+
+      <h2>
+        Ko'r, esla, tabassum qil 📸
+      </h2>
+
+      <div class="gallery" id="gallery">
+        <!-- Rasmlar va videolar app.js orqali chiqadi -->
+      </div>
+
+      <button class="secondary" id="refresh">
+        Yangi xotiralarni ko'rish ↻
+      </button>
+
+    </section>
+
+
+    <!-- 03 TABRIK -->
+    <section class="screen letter">
+
+      <div class="number">
+        03
+      </div>
+
+      <div class="paper">
+
+        <span class="seal">
+          💌
+        </span>
+
+        <h2>
+          Sevinchga
+        </h2>
+
+        <p>
+          Bugun sen 13 yoshga to'lding.
+          Hayotingda hali juda ko'p kulgili, baxtli
+          va unutilmas kunlar bo'lsin.
+        </p>
+
+        <p>
+          Men uzoqda bo'lsam ham, bugun seni tabriklash uchun
+          oddiy xabar yuborish kamlik qiladi deb o'yladim.
+          Shuning uchun shu kichkina dunyoni yasadim.
+        </p>
+
+        <p>
+          Bu yerga yana yangi rasmlar, videolar va xotiralar
+          qo'shilib boradi. Chunki eng yaxshi xotiralar
+          bitta kunga sig'maydi. 🤍
+        </p>
+
+        <p class="signature">
+          Tug'ilgan kuning muborak!
+          <br>
+          <b>— Doston</b>
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- YAKUNIY QISM -->
+    <section class="screen finale">
+
+      <div class="cake">
+        🎂
+      </div>
+
+      <p class="eyebrow">
+        ENG MUHIM QISM
+      </p>
+
+      <h2>
+        13 yosh — yangi hikoyaning boshlanishi.
+      </h2>
+
+      <p>
+        Doim kulib yur. Orzularing katta bo'lsin.
+        Va bugungi kun esingda qolsin.
+      </p>
+
+      <button class="primary" id="celebrate">
+        13 marta tabassum qil ✨
+      </button>
+
+      <div id="wish" class="wish"></div>
+
+    </section>
+
+  </main>
+
+
+  <!-- RASM / VIDEO OCHISH MODALI -->
+
+  <div class="modal" id="modal">
+
+    <button id="closeModal">
+      ×
+    </button>
+
+    <div id="modalContent"></div>
+
+  </div>
+
+
+  <!-- ADMIN SAHIFA -->
+  <a
+    class="admin-link"
+    href="./admin.html"
+    aria-label="Admin"
+  >
+    ✦
+  </a>
+
+
+  <!-- GitHub Pages uchun to'g'ri JS yo'li -->
+  <script src="./app.js"></script>
+
 </body>
 </html>
