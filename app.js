@@ -15,19 +15,33 @@ const modalContent = document.querySelector("#modalContent");
 const items = [
   {
     type: "image",
-    src: "./assets/photos/photo1.jpg",
+    src: "./assets/photos/photo-1.jpg",
     caption: "Eng chiroyli xotiralardan biri ✨"
   },
   {
     type: "image",
-    src: "./assets/photos/photo2.jpg",
+    src: "./assets/photos/photo-2.jpg",
     caption: "Senga atalgan kichkina xotira 🤍"
   },
   {
     type: "image",
-    src: "./assets/photos/photo3.jpg",
+    src: "./assets/photos/photo-3.jpg",
     caption: "Tabassuming doim yo'qolmasin 😊"
-  }
+  },
+  {
+    type: "image",
+    src: "./assets/photos/photo-4.jpg",
+    caption: "Doimo baxtli yasha 😊"
+  },
+  {
+    type: "image",
+    src: "./assets/photos/photo-5.jpg",
+    caption: "Men uchun muhumsan 🤍"
+  },
+  {
+    type: "image",
+    src: "./assets/photos/photo-6.jpg",
+    caption: "Nima yozishni bilmadim 🤍"
 
   // VIDEO QO'SHISH KERAK BO'LSA:
   /*
