@@ -31,18 +31,19 @@ const items = [
   {
     type: "image",
     src: "./assets/photos/photo-4.jpg",
-    caption: "Doimo baxtli yasha 😊"
+    caption: "Yana bir go'zal xotira ✨"
   },
   {
     type: "image",
     src: "./assets/photos/photo-5.jpg",
-    caption: "Men uchun muhumsan 🤍"
+    caption: "Bugungi kun esda qolsin 🤍"
   },
   {
     type: "image",
     src: "./assets/photos/photo-6.jpg",
-    caption: "Nima yozishni bilmadim 🤍"
-
+    caption: "Sevinch uchun esdalik 📸🤍"
+  }
+];
   // VIDEO QO'SHISH KERAK BO'LSA:
   /*
   ,
